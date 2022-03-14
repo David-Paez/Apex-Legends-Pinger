@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D8AAB5F27DEDDD800443ACF /* Apex_Legends_PingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8AAB5E27DEDDD800443ACF /* Apex_Legends_PingerApp.swift */; };
+		7D8AAB6127DEDDD800443ACF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8AAB6027DEDDD800443ACF /* ContentView.swift */; };
+		7D8AAB6327DEDDDA00443ACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8AAB6227DEDDDA00443ACF /* Assets.xcassets */; };
+		7D8AAB6627DEDDDA00443ACF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8AAB6527DEDDDA00443ACF /* Preview Assets.xcassets */; };
+		7D8AAB6827DEDDDA00443ACF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8AAB6727DEDDDA00443ACF /* Persistence.swift */; };
+		7D8AAB6B27DEDDDA00443ACF /* Apex_Legends_Pinger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D8AAB6927DEDDDA00443ACF /* Apex_Legends_Pinger.xcdatamodeld */; };
+		7D8AAB7527DEDDDA00443ACF /* Apex_Legends_PingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8AAB7427DEDDDA00443ACF /* Apex_Legends_PingerTests.swift */; };
+		7D8AAB7F27DEDDDA00443ACF /* Apex_Legends_PingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8AAB7E27DEDDDA00443ACF /* Apex_Legends_PingerUITests.swift */; };
+		7D8AAB8127DEDDDA00443ACF /* Apex_Legends_PingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8AAB8027DEDDDA00443ACF /* Apex_Legends_PingerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D8AAB7127DEDDDA00443ACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D8AAB5327DEDDD800443ACF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D8AAB5A27DEDDD800443ACF;
+			remoteInfo = "Apex Legends Pinger";
+		};
+		7D8AAB7B27DEDDDA00443ACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D8AAB5327DEDDD800443ACF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D8AAB5A27DEDDD800443ACF;
+			remoteInfo = "Apex Legends Pinger";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D8AAB5B27DEDDD800443ACF /* Apex Legends Pinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apex Legends Pinger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8AAB5E27DEDDD800443ACF /* Apex_Legends_PingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apex_Legends_PingerApp.swift; sourceTree = "<group>"; };
+		7D8AAB6027DEDDD800443ACF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7D8AAB6227DEDDDA00443ACF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D8AAB6527DEDDDA00443ACF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D8AAB6727DEDDDA00443ACF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7D8AAB6A27DEDDDA00443ACF /* Apex_Legends_Pinger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Apex_Legends_Pinger.xcdatamodel; sourceTree = "<group>"; };
+		7D8AAB7027DEDDDA00443ACF /* Apex Legends PingerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apex Legends PingerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8AAB7427DEDDDA00443ACF /* Apex_Legends_PingerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apex_Legends_PingerTests.swift; sourceTree = "<group>"; };
+		7D8AAB7A27DEDDDA00443ACF /* Apex Legends PingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apex Legends PingerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8AAB7E27DEDDDA00443ACF /* Apex_Legends_PingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apex_Legends_PingerUITests.swift; sourceTree = "<group>"; };
+		7D8AAB8027DEDDDA00443ACF /* Apex_Legends_PingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apex_Legends_PingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D8AAB5827DEDDD800443ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8AAB6D27DEDDDA00443ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8AAB7727DEDDDA00443ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D8AAB5227DEDDD800443ACF = {
+			isa = PBXGroup;
+			children = (
+				7D8AAB5D27DEDDD800443ACF /* Apex Legends Pinger */,
+				7D8AAB7327DEDDDA00443ACF /* Apex Legends PingerTests */,
+				7D8AAB7D27DEDDDA00443ACF /* Apex Legends PingerUITests */,
+				7D8AAB5C27DEDDD800443ACF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D8AAB5C27DEDDD800443ACF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D8AAB5B27DEDDD800443ACF /* Apex Legends Pinger.app */,
+				7D8AAB7027DEDDDA00443ACF /* Apex Legends PingerTests.xctest */,
+				7D8AAB7A27DEDDDA00443ACF /* Apex Legends PingerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D8AAB5D27DEDDD800443ACF /* Apex Legends Pinger */ = {
+			isa = PBXGroup;
+			children = (
+				7D8AAB5E27DEDDD800443ACF /* Apex_Legends_PingerApp.swift */,
+				7D8AAB6027DEDDD800443ACF /* ContentView.swift */,
+				7D8AAB6227DEDDDA00443ACF /* Assets.xcassets */,
+				7D8AAB6727DEDDDA00443ACF /* Persistence.swift */,
+				7D8AAB6927DEDDDA00443ACF /* Apex_Legends_Pinger.xcdatamodeld */,
+				7D8AAB6427DEDDDA00443ACF /* Preview Content */,
+			);
+			path = "Apex Legends Pinger";
+			sourceTree = "<group>";
+		};
+		7D8AAB6427DEDDDA00443ACF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7D8AAB6527DEDDDA00443ACF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7D8AAB7327DEDDDA00443ACF /* Apex Legends PingerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D8AAB7427DEDDDA00443ACF /* Apex_Legends_PingerTests.swift */,
+			);
+			path = "Apex Legends PingerTests";
+			sourceTree = "<group>";
+		};
+		7D8AAB7D27DEDDDA00443ACF /* Apex Legends PingerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D8AAB7E27DEDDDA00443ACF /* Apex_Legends_PingerUITests.swift */,
+				7D8AAB8027DEDDDA00443ACF /* Apex_Legends_PingerUITestsLaunchTests.swift */,
+			);
+			path = "Apex Legends PingerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D8AAB5A27DEDDD800443ACF /* Apex Legends Pinger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D8AAB8427DEDDDA00443ACF /* Build configuration list for PBXNativeTarget "Apex Legends Pinger" */;
+			buildPhases = (
+				7D8AAB5727DEDDD800443ACF /* Sources */,
+				7D8AAB5827DEDDD800443ACF /* Frameworks */,
+				7D8AAB5927DEDDD800443ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Apex Legends Pinger";
+			productName = "Apex Legends Pinger";
+			productReference = 7D8AAB5B27DEDDD800443ACF /* Apex Legends Pinger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D8AAB6F27DEDDDA00443ACF /* Apex Legends PingerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D8AAB8727DEDDDA00443ACF /* Build configuration list for PBXNativeTarget "Apex Legends PingerTests" */;
+			buildPhases = (
+				7D8AAB6C27DEDDDA00443ACF /* Sources */,
+				7D8AAB6D27DEDDDA00443ACF /* Frameworks */,
+				7D8AAB6E27DEDDDA00443ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D8AAB7227DEDDDA00443ACF /* PBXTargetDependency */,
+			);
+			name = "Apex Legends PingerTests";
+			productName = "Apex Legends PingerTests";
+			productReference = 7D8AAB7027DEDDDA00443ACF /* Apex Legends PingerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D8AAB7927DEDDDA00443ACF /* Apex Legends PingerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D8AAB8A27DEDDDA00443ACF /* Build configuration list for PBXNativeTarget "Apex Legends PingerUITests" */;
+			buildPhases = (
+				7D8AAB7627DEDDDA00443ACF /* Sources */,
+				7D8AAB7727DEDDDA00443ACF /* Frameworks */,
+				7D8AAB7827DEDDDA00443ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D8AAB7C27DEDDDA00443ACF /* PBXTargetDependency */,
+			);
+			name = "Apex Legends PingerUITests";
+			productName = "Apex Legends PingerUITests";
+			productReference = 7D8AAB7A27DEDDDA00443ACF /* Apex Legends PingerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D8AAB5327DEDDD800443ACF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7D8AAB5A27DEDDD800443ACF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					7D8AAB6F27DEDDDA00443ACF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7D8AAB5A27DEDDD800443ACF;
+					};
+					7D8AAB7927DEDDDA00443ACF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7D8AAB5A27DEDDD800443ACF;
+					};
+				};
+			};
+			buildConfigurationList = 7D8AAB5627DEDDD800443ACF /* Build configuration list for PBXProject "Apex Legends Pinger" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D8AAB5227DEDDD800443ACF;
+			productRefGroup = 7D8AAB5C27DEDDD800443ACF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D8AAB5A27DEDDD800443ACF /* Apex Legends Pinger */,
+				7D8AAB6F27DEDDDA00443ACF /* Apex Legends PingerTests */,
+				7D8AAB7927DEDDDA00443ACF /* Apex Legends PingerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D8AAB5927DEDDD800443ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8AAB6627DEDDDA00443ACF /* Preview Assets.xcassets in Resources */,
+				7D8AAB6327DEDDDA00443ACF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8AAB6E27DEDDDA00443ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8AAB7827DEDDDA00443ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D8AAB5727DEDDD800443ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8AAB6827DEDDDA00443ACF /* Persistence.swift in Sources */,
+				7D8AAB6127DEDDD800443ACF /* ContentView.swift in Sources */,
+				7D8AAB6B27DEDDDA00443ACF /* Apex_Legends_Pinger.xcdatamodeld in Sources */,
+				7D8AAB5F27DEDDD800443ACF /* Apex_Legends_PingerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8AAB6C27DEDDDA00443ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8AAB7527DEDDDA00443ACF /* Apex_Legends_PingerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8AAB7627DEDDDA00443ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8AAB8127DEDDDA00443ACF /* Apex_Legends_PingerUITestsLaunchTests.swift in Sources */,
+				7D8AAB7F27DEDDDA00443ACF /* Apex_Legends_PingerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D8AAB7227DEDDDA00443ACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D8AAB5A27DEDDD800443ACF /* Apex Legends Pinger */;
+			targetProxy = 7D8AAB7127DEDDDA00443ACF /* PBXContainerItemProxy */;
+		};
+		7D8AAB7C27DEDDDA00443ACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D8AAB5A27DEDDD800443ACF /* Apex Legends Pinger */;
+			targetProxy = 7D8AAB7B27DEDDDA00443ACF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7D8AAB8227DEDDDA00443ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D8AAB8327DEDDDA00443ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D8AAB8527DEDDDA00443ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Apex Legends Pinger/Preview Content\"";
+				DEVELOPMENT_TEAM = GZ8GHQUM4K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paezlabs.Apex-Legends-Pinger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D8AAB8627DEDDDA00443ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Apex Legends Pinger/Preview Content\"";
+				DEVELOPMENT_TEAM = GZ8GHQUM4K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paezlabs.Apex-Legends-Pinger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7D8AAB8827DEDDDA00443ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZ8GHQUM4K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paezlabs.Apex-Legends-PingerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apex Legends Pinger.app/Apex Legends Pinger";
+			};
+			name = Debug;
+		};
+		7D8AAB8927DEDDDA00443ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZ8GHQUM4K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paezlabs.Apex-Legends-PingerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apex Legends Pinger.app/Apex Legends Pinger";
+			};
+			name = Release;
+		};
+		7D8AAB8B27DEDDDA00443ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZ8GHQUM4K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paezlabs.Apex-Legends-PingerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Apex Legends Pinger";
+			};
+			name = Debug;
+		};
+		7D8AAB8C27DEDDDA00443ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZ8GHQUM4K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paezlabs.Apex-Legends-PingerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Apex Legends Pinger";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D8AAB5627DEDDD800443ACF /* Build configuration list for PBXProject "Apex Legends Pinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8AAB8227DEDDDA00443ACF /* Debug */,
+				7D8AAB8327DEDDDA00443ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D8AAB8427DEDDDA00443ACF /* Build configuration list for PBXNativeTarget "Apex Legends Pinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8AAB8527DEDDDA00443ACF /* Debug */,
+				7D8AAB8627DEDDDA00443ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D8AAB8727DEDDDA00443ACF /* Build configuration list for PBXNativeTarget "Apex Legends PingerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8AAB8827DEDDDA00443ACF /* Debug */,
+				7D8AAB8927DEDDDA00443ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D8AAB8A27DEDDDA00443ACF /* Build configuration list for PBXNativeTarget "Apex Legends PingerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8AAB8B27DEDDDA00443ACF /* Debug */,
+				7D8AAB8C27DEDDDA00443ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7D8AAB6927DEDDDA00443ACF /* Apex_Legends_Pinger.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7D8AAB6A27DEDDDA00443ACF /* Apex_Legends_Pinger.xcdatamodel */,
+			);
+			currentVersion = 7D8AAB6A27DEDDDA00443ACF /* Apex_Legends_Pinger.xcdatamodel */;
+			path = Apex_Legends_Pinger.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7D8AAB5327DEDDD800443ACF /* Project object */;
+}
