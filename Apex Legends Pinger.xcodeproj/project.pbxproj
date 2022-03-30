@@ -16,6 +16,7 @@
 		7D8AAB7527DEDDDA00443ACF /* Apex_Legends_PingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8AAB7427DEDDDA00443ACF /* Apex_Legends_PingerTests.swift */; };
 		7D8AAB7F27DEDDDA00443ACF /* Apex_Legends_PingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8AAB7E27DEDDDA00443ACF /* Apex_Legends_PingerUITests.swift */; };
 		7D8AAB8127DEDDDA00443ACF /* Apex_Legends_PingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8AAB8027DEDDDA00443ACF /* Apex_Legends_PingerUITestsLaunchTests.swift */; };
+		7DCB607F27F427E7008EE8CF /* SwiftyPing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCB607E27F427E6008EE8CF /* SwiftyPing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		7D8AAB7A27DEDDDA00443ACF /* Apex Legends PingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apex Legends PingerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8AAB7E27DEDDDA00443ACF /* Apex_Legends_PingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apex_Legends_PingerUITests.swift; sourceTree = "<group>"; };
 		7D8AAB8027DEDDDA00443ACF /* Apex_Legends_PingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apex_Legends_PingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7DCB607E27F427E6008EE8CF /* SwiftyPing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyPing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		7D8AAB5D27DEDDD800443ACF /* Apex Legends Pinger */ = {
 			isa = PBXGroup;
 			children = (
+				7DCB607D27F427CA008EE8CF /* Classes */,
 				7D8AAB5E27DEDDD800443ACF /* Apex_Legends_PingerApp.swift */,
 				7D8AAB6027DEDDD800443ACF /* ContentView.swift */,
 				7D8AAB6227DEDDDA00443ACF /* Assets.xcassets */,
@@ -131,6 +134,14 @@
 				7D8AAB8027DEDDDA00443ACF /* Apex_Legends_PingerUITestsLaunchTests.swift */,
 			);
 			path = "Apex Legends PingerUITests";
+			sourceTree = "<group>";
+		};
+		7DCB607D27F427CA008EE8CF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7DCB607E27F427E6008EE8CF /* SwiftyPing.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +276,7 @@
 			files = (
 				7D8AAB6827DEDDDA00443ACF /* Persistence.swift in Sources */,
 				7D8AAB6127DEDDD800443ACF /* ContentView.swift in Sources */,
+				7DCB607F27F427E7008EE8CF /* SwiftyPing.swift in Sources */,
 				7D8AAB6B27DEDDDA00443ACF /* Apex_Legends_Pinger.xcdatamodeld in Sources */,
 				7D8AAB5F27DEDDD800443ACF /* Apex_Legends_PingerApp.swift in Sources */,
 			);
